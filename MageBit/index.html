@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/javascript.js"></script>
+  <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <div id="topBar" media="screen">
+    <div class="logo_pineapple">
+    <img class="logo" src="Img/logo_pineapple.svg">
+    <span>pineapple.</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div>
+  <section class="heading">
+    <h1>Subscribe for newsletter</h1>
+  </section>
+    <section class="subheading">
+      <p>Subscribe to our newsletter and get 10% discount on pineaplle glasses.</p>
+    </section>
+</div>
+<form id="email" name="email" onsubmit="valid(this)">
+  <div class="line"><img src="Img/line.jpg"/></div>
+  <input type="image" name="submit" src="Img/ic_arrow.svg"  class="arrow" onclick="if(!this.form.checkbox.checked){alert('You must accept the terms and conditions');return false}" id="submit">
+  <input type="email" name="email" placeholder="Type your email address here..." id="base">
+<div class="check_mark">
+  <input type="checkbox" name="checkbox" id="checkbox" value="checkbox"/>
+  <span class="agree">I agree to</span>
+  <a class="underline" href="#">terms of service</a>
+</div>
+</form>
+<div class="line_1"></div>
+<a href="#"><div class="fb"></div>
+  <img class="ic_fb" src="Img/ic_facebook.svg"></a>
+  <a href="#"><div class="inst"></div>
+  <img class="ic_inst" src="Img/ic_instagram.svg"></a>
+  <a href="#"><div class="tw"></div>
+  <img class="ic_tw" src="Img/ic_twitter.svg"></a>
+<a href="#"><div class="ytb"></div>
+  <img class="ic_ytb" src="Img/ic_youtube.svg"></a>
+<div class="summerIMG">
+  <img src="Img/image_summer.jpg"/>
+ </div>
+</body>
+</html>
